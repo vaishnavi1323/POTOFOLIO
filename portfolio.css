@@ -1,0 +1,259 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #291C3A;
+    color: white;
+}
+
+.header {
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #331C52;
+    position: sticky;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+}.logo span {
+    color: #8121D0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    color: #8121D0;
+}
+
+.hire-btn {
+    background: #8121D0;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.hire-btn:hover {
+    background: #a046ff;
+    transform: translateY(-3px);
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 8%;
+    background: #331C52;
+}
+
+.hero h1 {
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.social a {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #ffffff90;
+    transition: 0.3s ease;
+}
+
+.social a:hover {
+    color: #8121D0;
+    transform: scale(1.2);
+}
+
+.stats span {
+    font-size: 28px;
+    color: #8121D0;
+}
+
+.hero-img img {
+    width: 330px;
+    border-radius: 20px;
+    transition: 0.4s;
+    border:#331C52;
+
+    border-radius: 5PX;
+    border-width: 12PX;
+}
+
+.hero-img img:hover {
+    transform: scale(1.05);
+
+}
+
+.about {
+    padding: 60px 8%;
+    background: #E1EBED;
+    color: #291C3A;
+}
+.button{
+    transform: scale(1.05);
+    color: #291C3A;
+    background: #8121D0;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+
+.button:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+.about h2 {
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.skills {
+    padding: 60px 8%;
+}
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.skill-grid div {
+    background: #8121D0;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.skill-grid div:hover {
+    background: #a045ff;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(129,33,208,0.4);
+}
+
+.projects {
+    padding: 60px 8%;
+    background: #DCCFED;
+    color: #291C3A;
+}
+
+.project-grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.card img:hover {
+    transform: scale(1.05);
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #331C52;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.card button:hover {
+    background: #8121D0;
+    transform: translateY(-3px);
+}
+
+.contact {
+    padding: 60px 8%;
+}
+
+.contact h2 span {
+    color: #8121D0;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form textarea {
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+
+.contact-form button {
+    width: 150px;
+    padding: 12px;
+    background: #331C52;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+
+.contact-form button:hover {
+    background: #8121D0;
+    transform: translateY(-3px);
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #331C52;
+    margin-top: 40px;
+}
+:root {
+    --neon-purple: #a043ff;
+    --neon-blue: #5af0ff;
+    --neon-glow: 0 0 10px var(--neon-purple), 0 0 20px var(--neon-purple), 0 0 30px var(--neon-purple);
+}
+@media screen {
+    
+}
+
+
